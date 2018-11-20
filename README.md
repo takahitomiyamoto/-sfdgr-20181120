@@ -66,9 +66,26 @@ class TestClass{
 
 
 ## お題⑤
+以下のコードにはSalesforceプラットフォームで実行する際、大きな問題があります。問題ないコードへと修正してください。
+```java
+public with sharing class selectController {
+    public List<Contact> getContacts() {
+        List<Contact> results;
+        for (Account acc: [Select Id, Name From Account Limit 1000]) {
+            for(Contact con : [Select Name From Contact Where AccountId= :acc.Id]){
+                results.add(con);
+            }
+        }
+        return results;
+    }
+}
+```
 
 → [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer5)
 
 
-## 出典
+# 出典
 - [Salesforce Developer Group ルーキー会 #13](https://sfdgr.connpass.com/event/105935/)
+
+# Next Step
+- [New Salesforce Developer Onboarding for Apex](https://sforce.co/2LuLuNf)
