@@ -47,6 +47,9 @@ class TestClass{
 
 
 ## お題③
+以下の要件を満たすソースコードを書いてください。
+- 金額を引数で与えると、消費税（10%とする）を加算して数値を返してくれるメソッド
+- メソッドは好きな名前のクラスの中にあり、別のクラスから呼び出すことができる
 
 → [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer3)
 
