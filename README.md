@@ -22,8 +22,7 @@ String message = 'ようこそ';
 String name = 'Rookie会';
 System.debug(LoggingLevel.INFO, name + 'に' + message);
 ```
-### 解答
-
+### [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer1)
 
 ## お題②
 
