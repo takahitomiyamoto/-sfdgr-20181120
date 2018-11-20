@@ -3,4 +3,8 @@
 #
 
 package.xml
-src/main/answer1/
+src/main/answer1/README.md
+src/main/answer2/README.md
+src/main/answer3/README.md
+src/main/answer4/README.md
+src/main/answer5/README.md

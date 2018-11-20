@@ -22,26 +22,43 @@ String message = 'ようこそ';
 String name = 'Rookie会';
 System.debug(LoggingLevel.INFO, name + 'に' + message);
 ```
-### [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer1)
+
+→ [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer1)
 
 ## お題②
+以下のソースコードのコンパイルエラーを解消してください。
+```java
+class TestClass{
+    public IntgetNumber() {
+        String name = 'test';
+        if (name.equals('test')) {
+            return 10;
+            Boolean isSuccess= True
+            return;
+    }
+    public IntgetNumber() {}
+    public Account getAccountById(Id targetId) {
+        return [SELECTId,Name,IndustryFROMAccountWHEREId = targetId];
+    }
+}
+```
 
-### 解答
+→ [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer2)
 
 
 ## お題③
 
-### 解答
+→ [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer3)
 
 
 ## お題④
 
-### 解答
+→ [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer4)
 
 
 ## お題⑤
 
-### 解答
+→ [解答](https://github.com/takahitomiyamoto/sfdgr-20181120/tree/master/src/main/answer5)
 
 
 ## 出典
